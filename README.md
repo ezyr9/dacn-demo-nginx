@@ -3,8 +3,7 @@
 ĐỒ ÁN CHUYÊN NGÀNH</br>
 TÌM HIỂU VÀ TRIỂN KHAI ỨNG DỤNG WEB</br>
 TRÊN KUBERNETES</br>
-Ngành:</br>
-AN TOÀN THÔNG TIN</br>
+Ngành: AN TOÀN THÔNG TIN</br>
 Chuyên ngành: AN TOÀN THÔNG TIN</br>
 Giảng viên hướng dẫn : Dương Minh Chiến</br>
 Sinh viên thực hiện : Trần Đình Phương</br>
