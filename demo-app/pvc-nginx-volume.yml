@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pvc-nginx-volume
+  labels:
+    app: nginx-app-demo
+spec:
+  storageClassName: ""
+  resources:
+    requests:
+      storage: 5Mi
+  accessModes:
+    - ReadWriteOnce

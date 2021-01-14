@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nginx-app-demo
+  name: nginx-app-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-app-demo
+  template:
+    metadata:
+      labels:
+        app: nginx-app-demo
+    spec:
+      containers:
+      - image: spencegirl/demo-nginx:v0
+        name: nginx
+        ports:
+        - containerPort: 80
+          name: nginx
+      #   volumeMounts:
+      #   - name: index-nginx-configmap
+      #     mountPath: "/usr/share/nginx/html/"
+      #     readOnly: true
+      # volumes:
+      # - name: index-nginx-configmap
+      #   configMap:
+      #     name: index-nginx-configmap
+      #     items:
+      #     - key: index.html
+      #       path: index.html
+
+        
